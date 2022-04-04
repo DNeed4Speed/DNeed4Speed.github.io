@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <title>W3.CSS Template</title>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style>
+          body,
+          h1,
+          h2,
+          h3,
+          h4,
+          h5,
+          h6 {
+               font-family: "Lato", sans-serif
+          }
+
+          .w3-bar,
+          h1,
+          button {
+               font-family: "Montserrat", sans-serif
+          }
+
+          .fa-truck,
+          .fa-connectdevelop {
+               font-size: 200px
+          }
+     </style>
+</head>
+
+<body>
+     <!-- Navbar -->
+     <div class="w3-top">
+          <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+               <!--Button on the upper right corner-->
+               <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
+                    href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu">
+                    <i class="fa fa-bars"></i></a>
+               <!--Button on the Upper Left Corner-->
+               <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+               <!--The Buttons along the Top-->
+               <!--The hashtag is where the hyperlink for the button will go-->
+               <a href="page1.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Amazon
+                    Trailers</a>
+               <a href="page2.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">UPS
+                    Trailers</a>
+               <a href="page3.html"
+                    class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Intermodal Trailers</a>
+               <a href="page4.html"
+                    class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Non-Inventory</a>
+               <a href="page5.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Pup
+                    Trailers</a>
+               <a href="page6.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Trailer
+                    Yard</a>
+          </div>
+
+          <!-- Navbar on small screens -->
+          <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+               <a href="page1.html" class="w3-bar-item w3-button w3-padding-large">Amazon</a>
+               <a href="page2.html" class="w3-bar-item w3-button w3-padding-large">UPS</a>
+               <a href="page3.html" class="w3-bar-item w3-button w3-padding-large">Intermodal</a>
+               <a href="page4.html" class="w3-bar-item w3-button w3-padding-large">Non-Inventory</a>
+               <a href="page5.html" class="w3-bar-item w3-button w3-padding-large">Pup</a>
+               <a href="page6.html" class="w3-bar-item w3-button w3-padding-large">Trailer Yard</a>
+          </div>
+     </div>
+
+     <!-- Header -->
+     <header class="w3-container w3-red w3-center" style="padding:128px 16px" img src="img_chania.jpg">
+          <h1 class="w3-margin w3-jumbo">Amazon Guard Shack (Check Ins)</h1>
+          <!--<p class="w3-xlarge">Template by w3.css</p>-->
+          <!--<button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>-->
+     </header>
+
+     <!-- First Grid -->
+     <div class="w3-row-padding w3-padding-64 w3-container">
+          <div class="w3-content">
+               <!--2/3 of the grid made-->
+               <div class="w3-twothird">
+                    <!--Title here-->
+                    <h1><u>The Purpose of the Guard Shack</u></h1>
+                    <h3 class="w3-padding-32">You are tasked to accurately and quickly Check-In various Trailers from
+                         many
+                         different types of carriers. It is a complicated process. This website was made to help.</h3>
+               </div>
+
+               <!--Icon placed to the RIGHT-->
+               <div class="w3-third w3-center">
+                    <i class="fa fa-truck w3-padding-84 w3-text-red"></i>
+               </div>
+          </div>
+     </div>
+
+     <!-- Second Grid -->
+     <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+          <div class="w3-content">
+               <!--Put icon on the LEFT-->
+               <div class="w3-third w3-center">
+                    <i class="fa fa-connectdevelop w3-padding-64 w3-text-red w3-margin-right"></i>
+               </div>
+
+               <!--A third of the grid made-->
+               <div class="w3-twothird">
+                    <h1 class="w3-padding-32"><u>The Topics covered in this site include:</u></h1>
+                    <h2 class="w3-text-grey">
+                         <li><a href="page1.html">Amazon Trailers</a></li>
+                         <li><a href="page2.html">UPS Trailers</a></li>
+                         <li><a href="page3.html">Intermodal Trailers</a></li>
+                         <li><a href="page4.html">Non-Inventory</a></li>
+                         <li><a href="page5.html">Pup Trailers</a></li>
+                         <li><a href="page6.html">Trailer Yard</a></li>
+                    </h2>
+
+               </div>
+          </div>
+     </div>
+
+     <!--Near the footer, some marker near the bottom of the webpage-->
+     <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+          <h1 class="w3-margin w3-xlarge">Quote of the day: Make History</h1>
+     </div>
+
+     <script>
+          // Used to toggle the menu on small screens when clicking on the menu button
+          function myFunction() {
+               var x = document.getElementById("navDemo");
+               if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+               } else {
+                    x.className = x.className.replace(" w3-show", "");
+               }
+          }
+     </script>
+
+</body>
+
+</html>

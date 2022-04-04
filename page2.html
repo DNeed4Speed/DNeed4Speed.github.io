@@ -1,0 +1,299 @@
+<!--UPS PAGE-->
+
+<!DOCTYPE html>
+<html lang="en">
+<!--Establishing what is on the webpage, leave this alone-->
+
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Lato", sans-serif
+        }
+
+        .w3-bar,
+        h1,
+        button {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .fa-truck,
+        .fa-connectdevelop {
+            font-size: 200px
+        }
+    </style>
+
+    <!--Establish the table that will hold the info-->
+    <!--Table Start-->
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 1px solid #000000;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ff7402c0;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        table.center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        div {
+            text-align: center;
+        }
+    </style>
+
+    <!--For images-->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+
+    <!--For any h2 text to have a border-->
+    <style>
+        h2 {
+            border: 2px solid rgb(10, 10, 10);
+        }
+    </style>
+
+    <!--For anyting else-->
+    <style>
+        .tip {
+            border: 2px solid rgb(247, 3, 3);
+        }
+    </style>
+
+    <!--For the header-->
+    <style>
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 100px;
+            color:rgb(184, 182, 182)
+        }
+    </style>
+
+</head>
+
+<!--The actual webapge-->
+
+<body style="background-color:rgb(221, 221, 221);">
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-brown w3-card w3-left-align w3-large">
+            <!--Button on the upper right corner-->
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-brown"
+                href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <!--Button on the Upper Left Corner-->
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+            <!--The Buttons along the Top-->
+            <!--The hashtag is where the hyperlink for the button will go-->
+            <a href="page1.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Amazon
+                Trailers</a>
+            <a class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">UPS Trailers</a>
+            <a href="page3.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Intermodal
+                Trailers</a>
+            <a href="page4.html"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Non-Inventory</a>
+            <a href="page5.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Pup
+                Trailers</a>
+            <a href="page6.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Trailer Yard</a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="page1.html" class="w3-bar-item w3-button w3-padding-large">Amazon</a>
+            <a class="w3-bar-item w3-button w3-padding-large">UPS</a>
+            <a href="page3.html" class="w3-bar-item w3-button w3-padding-large">Intermodal</a>
+            <a href="page4.html" class="w3-bar-item w3-button w3-padding-large">Non-Inventory</a>
+            <a href="page5.html" class="w3-bar-item w3-button w3-padding-large">Pup</a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <!--UPS-->
+    <div class="container">
+        <img src="UPS-Large-Black-Tractor-Trailer-Side-Body.jpg" alt="UPS-TRAILER" style="width:100%;">
+        <div class="centered">UPS Trailers</div>
+    </div>
+
+    <!--Break-->
+    <br>
+
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-white w3-container">
+        <div class="w3-content">
+            <!--Title here-->
+            <h1>UPS Drivers often pick up an <u>Outbound</u> load</h1>
+        </div>
+    </div>
+
+    <!--Break-->
+    <br>
+
+    <!-- Second Grid -->
+    <div class="w3-row-padding w3-white w3-container">
+        <div class="w3-content">
+            <!--Title here-->
+            <h1>They often carry an <u>EMPTY</u> UPS Trailer/Rental or PARCEL <u>LOADED</u> trailer on arrival</h1>
+        </div>
+    </div>
+
+    <!--Break-->
+    <br>
+
+    <!-- Third Grid -->
+    <div class="w3-row-padding w3-white w3-container">
+        <div class="w3-content">
+            <!--Title here-->
+            <h1>The main UPS <u>Outbound</u> loads drivers will pick up are:</h1>
+            <!--To set up stuff next to each other-->
+            <div class="row">
+                <div class="column">
+                    <h2 style="color:red;">UPS-NEXT-WEST</h2>
+                </div>
+                <div class="column">
+                    <h2 style="color:rgb(0, 26, 255);">UPS-2DAY</h2>
+                </div>
+                <div class="column">
+                    <h2 style="color:rgb(35, 196, 69);">UPS-LACHA-T</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Break-->
+    <br>
+
+    <!-- Forth Grid -->
+    <div class="w3-row-padding w3-white w3-container">
+        <div class="w3-content">
+            <!--Title here-->
+            <h1>Just like with AZNGs, be sure to verify the Trailer the UPS is carrying then the one they are picking up</h1>
+            <h1>The Trailer UPS Drivers are carrying DON'T come with a VRID</h1>
+        </div>
+    </div>
+
+    <!--Break-->
+    <br>
+
+    <h1><u>Here are some scenarios you'll encounter:</u></h1>
+
+    <h1>
+    <!--Table 1-->
+    <table class="center">
+        <!--Titles of the columns-->
+        <tr>
+            <th>Arrival</th>
+            <th>Reason</th>
+            <th>Location</th>
+        </tr>
+        <!--Row 1 of table-->
+        <tr>
+            <td>Bobtail</td>
+            <td>Picking up Loaded</td>
+            <td>Dock Door or Slip</td>
+        </tr>
+        <!--Row 2 of table-->
+        <tr>
+            <td>Tractor with Empty Trailer</td>
+            <td>Dropping Empty / Picking Up Loaded</td>
+            <td>Empty: Slip / Loaded: Dock Door</td>
+        </tr>
+        <!--Row 3 of table-->
+        <tr>
+            <td>Tractor with Loaded Trailer (PARCEL)</td>
+            <td>Dropping Loaded / Picking Up Loaded</td>
+            <td>Drop: Slip / Pick Up: Dock Door</td>
+        </tr>
+    </table>
+
+    <!--Break-->
+    <br>
+
+    <!-- Forth Grid -->
+    <div class="w3-row-padding w3-white w3-container">
+        <div class="w3-content">
+            <!--Title here-->
+            <h1 class="tip">Pro Tip #1: Tell UPS Drivers which Dock Door their Outbound load will be - they're good boys
+            </h1>
+        </div>
+    </div>
+
+    <!--Break-->
+    <br>
+
+    <!-- Forth Grid -->
+    <div class="w3-row-padding w3-white w3-container">
+        <div class="w3-content">
+            <!--Title here-->
+            <h1 class="tip">Pro Tip #2: The bold UPS Driver with shades always wants paperwork
+            </h1>
+        </div>
+    </div>
+
+    <!--Break-->
+    <br>
+
+</body>
+
+</html>
