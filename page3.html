@@ -1,0 +1,251 @@
+<!--Intermodal PAGE-->
+
+<!DOCTYPE html>
+<html lang="en">
+<!--Establishing what is on the webpage, leave this alone-->
+
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Lato", sans-serif
+        }
+
+        .w3-bar,
+        h1,
+        button {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .fa-truck,
+        .fa-connectdevelop {
+            font-size: 200px
+        }
+    </style>
+
+    <!--Establish the table that will hold the info-->
+    <!--Table Start-->
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 1px solid #000000;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ff7402c0;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        table.center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        div {
+            text-align: center;
+        }
+    </style>
+
+    <!--For images-->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+
+    <!--For anyting else-->
+    <style>
+        .tip {
+            border: 2px solid rgb(247, 3, 3);
+        }
+    </style>
+
+</head>
+
+<body style="background-color:rgb(221, 221, 221);">
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-card w3-left-align w3-large">
+            <!--Button on the upper right corner-->
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-black w3-large w3-white"
+                href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <!--Button on the Upper Left Corner-->
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-black">Home</a>
+            <!--The Buttons along the Top-->
+            <!--The hashtag is where the hyperlink for the button will go-->
+            <a href="page1.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Amazon
+                Trailers</a>
+            <a href="page2.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">UPS
+                Trailers</a>
+            <a class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Intermodal Trailers</a>
+            <a href="page4.html"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Non-Inventory</a>
+            <a href="page5.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Pup
+                Trailers</a>
+            <a href="page6.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Trailer
+                Yard</a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="page1.html" class="w3-bar-item w3-button w3-padding-large">Amazon</a>
+            <a href="page2.html" class="w3-bar-item w3-button w3-padding-large">UPS</a>
+            <a href="page3.html" class="w3-bar-item w3-button w3-padding-large">Intermodal</a>
+            <a href="page4.html" class="w3-bar-item w3-button w3-padding-large">Non-Inventory</a>
+            <a href="page5.html" class="w3-bar-item w3-button w3-padding-large">Pup</a>
+            <a href="page6.html" class="w3-bar-item w3-button w3-padding-large">Trailer Yard</a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <!--Intermodal-->
+    <header class="w3-container w3-white w3-center" style="padding:128px 16px" img src="img_chania.jpg">
+        <h1 class="w3-margin w3-jumbo">Intermodal Trailers</h1>
+
+    </header>
+
+    <br>
+
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-white w3-container">
+        <div class="w3-content">
+            <!--Title here-->
+            <h1>Intermodal Trailers consist of J.B. Hunt, ANZU (Amazon) and HUBG (Hub Group)</h1>
+        </div>
+    </div>
+
+    <!--Break-->
+    <br>
+
+    <h1><u>How often you see these Trailers:</u></h1>
+
+        <!--Table 1-->
+        <table class="center">
+            <!--Titles of the columns-->
+            <tr>
+                <th>Trailer</th>
+                <th>SCAT</th>
+                <th>How Often/th>
+            </tr>
+            <!--Row 1 of table-->
+            <tr>
+                <td>J.B. Hunt</td>
+                <td>HJBI</td>
+                <td>70%</td>
+            </tr>
+            <!--Row 2 of table-->
+            <tr>
+                <td>Amazon</td>
+                <td>AZNG</td>
+                <td>20%</td>
+            </tr>
+            <!--Row 3 of table-->
+            <tr>
+                <td>Hub Group</td>
+                <td>HUBG</td>
+                <td>10%</td>
+            </tr>
+        </table>
+
+        <!--Break-->
+        <br>
+
+        <!-- Second Grid -->
+        <div class="w3-row-padding w3-white w3-container">
+            <div class="w3-content">
+                <!--Title here-->
+                <h1><u>Here's what these Intermodal Trailers look like:</u></h1>
+                <!--To set up stuff next to each other-->
+                <div class="row">
+                    <div class="column">
+                        <h1><u>AZNG</u></h1>
+                        <img src="aznu190490.jpg" alt="UPS-TRAILER" style="width:100%;">
+                    </div>
+                    <div class="column">
+                        <h1><u>HJBI</u></h1>
+                        <img src="jb hunt container-400x400.jpg" alt="UPS-TRAILER" style="width:100%;">
+                    </div>
+                    <div class="column">
+                        <h1><u>HUBG</u></h1>
+                        <img src="hub-group.jpg" alt="UPS-TRAILER" style="width:150%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Break-->
+        <br>
+
+        <!-- Third Grid -->
+        <div class="w3-row-padding w3-white w3-container">
+            <div class="w3-content">
+                <!--Title here-->
+                <h1>How you check them in is similar to standard trailers</h1>
+            </div>
+        </div>
+
+        <!--Break-->
+        </br>
+
+        <script>
+            // Used to toggle the menu on small screens when clicking on the menu button
+            function myFunction() {
+                var x = document.getElementById("navDemo");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+        </script>
+
+</body>
+
+</html>
