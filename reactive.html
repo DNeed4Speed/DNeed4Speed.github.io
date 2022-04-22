@@ -1,0 +1,151 @@
+<!--TOM Team Website Version 2-->
+<!--reactive.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>TOM Team | Check In</title>
+    <meta name="author" content="Joseph Billanes">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!--The Very Top of the Page-->
+    <header>
+        <!--Make a container for the header of the webpage-->
+        <div class="container">
+            <!--This will go on the TOP LEFT-->
+            <div id="branding">
+                <h1>TOM Team Amazon</h1>
+            </div>
+            <!--Literally the Navigation Bar, the links for other pages are here-->
+            <nav>
+                <ul>
+                    <!--The links-->
+                    <!--Only put the current class on the CURRENT page, obviously, you'll do the same for the other pages-->
+                    <li><a href="index.html">Home</a></li>
+                    <li class="current"><a href="checkin.html">Check In</a></li>
+                    <li><a href="info.html">Info</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--For "Section IDs", name doesn't affect actual code, you name the section however you want-->
+
+    <!--The "div class" name matters, "container" should be used for well, containers-->
+
+    <!--"box" for a "div class" is useful to make smaller sections within a "container", it's like you're splitting the container into "boxes"-->
+
+    <section id="main">
+        <!--Add a container-->
+        <div class="container">
+            <article id="main-col">
+                <h2 class="page-title"><u>Check - In: Reactive</u></h2>
+                <p><i>- Reactive Dropoff</i></p>
+
+                <ul style="font-size:20px">
+                    <li>
+                        When a <b>REACTIVE</b> appears at the <b>Entry Gate</b>, under <i>Reason</i>, <b>Reactive</b> will be
+                        listed
+                    </li>
+                    <li>
+                        Verify the <b>Tractor License Plate</b>, <b>Trailer ID</b> and <b>VRID</b>
+                    </li>
+                    <li>
+                        <b>Radio</b> or <b>Slack</b> Inbound
+                    </li>
+
+                    <div class="SSP">
+                        <p><b>Radio:</b> <i>"Inbound, I have a Reactive (list the location it came from and the last 4 of
+                                the VRID)</i>
+                            where do you want it?"
+                        </p>
+                        <p><b>Slack:</b> Message Inbound in the <i>tom-inbound</i> chat that you are checking in a Reactive</p>
+                    </div>
+
+                    <p style="margin-right:90px"><b><u>Note:</u></b> Inbound will leave a picture in the <b>tom-inbound</b>
+                        Slack chat of expected <b>Reactives</b>
+                        and their designated <b>Dock Doors</b>. However, not all <b>Reactives</b> will be assigned a <b>Dock Door</b> and
+                        assigned Dock Doors will <b>not</b> always be available. Check with <b>Inbound</b> if not sure.</p>
+
+
+                    <li>
+                        Once you know fully where to send the Reactive, in <b>GEM</b> update the Tractor <i>Location</i> to <b>Tractor Only</b> and assign the location
+                        Inbound listed for you. Post the following information on the <b>tom-inbound</b> Slack chat
+                    </li>
+
+                    <div class="SSP">
+                        <p><b><u>Example:</u></b></p>
+                        <p>BF14->OAK4</p>
+                        <p>TansfersReactive</p>
+                        <p>ISA 628345607</p>
+                        <p>VRID 1132YTGSD</p>
+                        <p>126</p>
+                    </div>
+
+                    <p style="margin-right:90px"><b><u>Note:</u></b> Make sure you <b>DON'T</b> place a <b>REACTIVE</b> in the <b>Yard</b>. If you can't get a hold of
+                    <b>Inbound</b> or if there are no free <b>Dock Doors</b>, send the Reactive to the <b>North Fence</b> and notify <b>Inbound</b></p>
+
+                    <div class="SSP">
+                        <p><b><u>Sending a REACTIVE to the Fence:</u></b></p>
+                        <p><span style="color:orange">@present member</span> sending this Reactive to the Fence</p>
+                        <p>BF14->OAK4</p>
+                        <p>TansfersReactive</p>
+                        <p>ISA 628345607</p>
+                        <p>VRID 1132YTGSD</p>
+                        <p>North Fence</p>
+                    </div>
+
+                    <!--Break-->
+                    <br>
+
+                    <li>
+                        Unless the Driver has a <b>wire-cutter</b> or <b>bolt-cutter</b>, Radio a <b>Hostler Driver</b> to meet the Driver in the Yard
+                        and cut the seal
+                    </li>
+
+                    <li>
+                       Radio the Hostler Drivers: <i>"Yard Drivers, I have a Reactive going to (location), can one of you cut the seal?"</i>
+                    </li>
+
+                </ul>
+            </article>
+
+            <!--Time a sidebar, hell yeah-->
+            <aside id="sidebar">
+                <h2 style="color:rgb(0, 0, 0);"><u style="font-size: 30px;">Processes</u></h2>
+                <div class="dark">
+                    <h3><a href="checkin.html">Check - In (General)</a></h3>
+                    <h3><a href="outbound.html">Outbound</a></h3>
+                    <h3><a href="inbound.html">Inbound</a></h3>
+                    <h3><a href="totes.html">Transfer Totes / Universal Pallets</a></h3>
+                    <h3 class="current"><a href="reactive.html">Reactive</a></h3>
+                    <h3><a href="non.html">Non - Inventory</a></h3>
+                    <h3><a href="empty.html">Empty Carts</a></h3>
+                </div>
+            </aside>
+
+        </div>
+    </section>
+
+    <!--Always add a "footer" on the bottom of the webpage, it completes the look-->
+    <!--
+    <footer>
+        <p>Amazon TOM Team - made by Joseph Billanes (billanes)</p>
+    </footer>
+    -->
+
+    <div id="page-container">
+        <div id="content-wrap">
+          <!-- all other page content -->
+        </div>
+        <footer id="footer">Amazon TOM Team - made by Joseph Billanes (billanes)</footer>
+    </div>
+
+</body>
+
+</html>
